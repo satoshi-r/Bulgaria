@@ -1,0 +1,705 @@
+
+
+/*md*/
+
+@media screen and (max-width: 1200px)
+{
+	/*header*/
+	.ring
+	{
+		margin-left: 0px;
+	}
+
+	.gamburger4
+	{
+		right: 30px;
+	}
+	
+	/*relocation*/
+	.relocation_box
+	{
+		height: 188px;
+	}
+	
+	/*services*/
+	#services
+	{
+		height: 1000px;
+	}
+
+	.blocks_container .img1
+	{
+		left: calc(50% - 160px);
+	}
+
+	.blocks_container .img3
+	{
+		left: calc(50% - 320px);
+	}
+
+	.blocks_container .img2
+	{
+		left: calc(50% - 230px);
+	}
+
+	.services_ball
+	{
+		margin-left: calc(50% - 30px);
+		left: 0;
+	}
+
+	.services_block1
+	{
+		height: 280px;
+	}
+	
+	/*reviews*/
+	.review_mainblock
+	{
+		width: 500px !important;
+		height: 200px;
+		float: left;
+	}
+	
+	.slick-current .profile_photo
+	{
+		/*left: -20px !important;*/
+	}
+	/*footer*/
+	footer span
+	{
+		margin-left: 30px;
+	}
+
+	.span_underline
+	{
+		margin-left: 0;
+	}
+
+	footer span:nth-child(2),
+	footer span:nth-child(3)
+	{
+		position: relative;
+		top: 20px;
+	}
+
+	footer .text-right
+	{
+		bottom: 10px;
+	}
+
+	/*CONTACTS*/
+	.Scontacts_phone_img
+	{
+		margin-left: 60px;
+		margin-top: 20px;
+	}
+	.Scontacts_email_img,
+	.Scontacts_skype_img
+	{
+		margin-left: 55px;
+		margin-top: 20px;
+	}
+
+	/*ABOUT*/
+	.word3
+	{
+		left: 30px;
+	}
+
+	.about_kovalev
+	{
+		margin-left: 35px;
+	}
+	.about_petrov
+	{
+		margin-right: 35px;
+	}  
+}
+
+
+/*sm*/
+@media screen and (max-width: 992px)
+{
+	.gamburger4
+	{
+		right: 10px;
+	}
+
+	/*advantages*/
+	#advantages
+	{
+		margin-bottom: 460px;
+	}
+
+	.advanteges_width
+	{
+		width: 47.33333333%;
+	}
+
+	.authenticity
+	{
+		bottom: 760px;
+	}
+
+	.competence
+	{
+		margin-top: 40px;
+	}
+
+	/*relocation*/
+	.relocation_box img:last-child
+	{
+		top: 40px;
+	}
+
+	/*reviews*/
+	#reviews
+	{
+		height: 690px;
+	}
+
+	.review_mainblock
+	{
+		height: 190px;
+		width: 600px !important;
+		box-shadow: none !important;
+	}
+	.profile_photo
+	{
+		top: 130px;
+	}
+	
+	.slick-current .profile_photo
+	{
+		left: -60px;
+	}
+
+	.reviews_row
+	{
+		width: 100% !important;
+	}
+
+	.slick-list
+	{
+
+	}
+
+	/*footer*/
+	footer span:last-child
+	{
+		display: none;
+	}
+
+	footer span:nth-child(2),
+	footer span:nth-child(3)
+	{
+		top: 0;
+	}
+
+	/*CONTACTS*/
+	#Scontacts .container
+	{
+		width: 100%;
+	}
+	.Scontacts__mainblock_right
+	{
+		margin-right: 15px;
+		margin-left: 0;
+		margin-bottom: 40px;
+	}
+
+	/*PROPERTY*/
+	#Sproperty .container
+	{
+		width: 100%;
+	}
+	
+	#Sproperty .row
+	{
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+	}
+
+	.Scontacts__mainblock
+	{
+		height: 100%;
+		bottom: 0;
+		box-shadow: none;
+	}
+	.property_house img,
+	.property_package img,
+	.property__house_text,
+	.property__package_text
+	{
+		margin-left: 0;
+	}
+	.property_package
+	{
+		margin-bottom: 50px;
+	}
+	.property_package,
+	.property_house
+	{
+		margin-left: 10px;
+	}
+
+	/*ABOUT*/
+	#Sabout .container
+	{
+		width: 100%;
+	}
+	.Sabout_mainblock
+	{
+		margin-bottom: 40px;
+	}
+	
+	.about_words
+	{
+		text-align: center;
+	}
+
+	.about_words span
+	{
+		width: 100%;
+		float: none !important;
+	}
+
+	.word3
+	{
+		left: 0;
+		top: 0;
+	}
+
+	.about_kovalev,
+	.about_petrov
+	{
+		width: 41.66666667%;
+		height: 593px;
+	}
+	.about_partners img
+	{
+		margin-left: calc(50% - 65px);
+	}
+}
+
+/*fix sections*/
+@media screen and (max-width: 830px)
+{
+	/*reviews*/
+	.review_mainblock
+	{
+		/*width: 450px !important;*/
+		height: 240px;
+	}
+
+	.slick-current .profile_photo
+	{
+		left: -30px !important;
+	}
+
+	.profile_link
+	{
+		margin-right: 20px;
+	}
+}
+
+/*xs*/
+
+@media screen and (max-width: 768px)
+{
+	.gamburger4
+	{
+		right: 70px;
+	}
+	h2
+	{
+		font-size: 1.8em !important;
+	}
+	/*header*/
+	.contacts
+	{
+		bottom: 80px;
+	}
+
+	.ring
+	{
+		margin-right: 10px;
+		float: none;
+	}
+
+	.main_title
+	{
+		font-size: 3em;
+	}
+
+	.title p
+	{
+		font-size: 1.833em;
+	}
+
+	/*advantages*/
+	#advantages
+	{
+		margin-bottom: 860px;
+	}
+
+	.advanteges_width
+	{
+		width: 100%;
+	}
+
+	.authenticity
+	{
+		bottom: -40px;
+	}
+
+	/*relocation*/
+	.relocation_question, .relocation_how
+	{
+		font-size: 1em;
+	}
+
+	.relocation_answer
+	{
+		font-size: 1.7em;
+	}
+
+	.relocation_box
+	{
+		height: 158px;
+	}
+	
+	.relocation_box img:last-child
+	{
+		top: 20px;
+	}
+	
+	/*services*/
+	.blocks_container .img1
+	{
+		left: calc(50% - 160px);
+	}
+
+	.blocks_container .img3
+	{
+		left: calc(50% - 320px);
+	}
+
+	.blocks_container .img2
+	{
+		left: calc(50% - 230px);
+	}
+
+	.services_ball
+	{
+		margin-left: calc(50% - 30px);
+		left: 0;
+	}
+
+	/*reviews*/
+	.profile_photo,
+	.review_mainblock,
+	.profile_name,
+	.profile_link,
+	.profile_direction,
+	.self_review
+	{
+		width: 100% !important;
+		text-align: center !important;
+		top: 0 !important;
+		left: 0 !important;
+		right: 0 !important;
+	}
+	.review_mainblock
+	{
+		box-shadow: none !important;
+		margin-right: 60px;
+		padding: 10px 50px 20px 90px !important;
+	}
+	.profile_photo img
+	{
+		margin-left: calc(50% - 20px);
+	}
+	.profile_link
+	{
+		margin: 0px auto !important;
+		text-align: center;
+	}
+	.slick-slide
+	{
+		right: 40px;
+	}
+	/*footer*/
+	.span_underline
+	{
+		display: none;
+	}
+
+	footer span:nth-child(2)
+	{
+		float: right;
+		top: 20px;
+	}
+
+	/*CONTACTS*/
+	.Scontacts_always
+	{
+		width: 90%;
+		margin: 0px auto;
+		margin-bottom: 50px;
+		margin-top: 50px;
+	}
+	.Scontacts__mainblock_right,
+	.Scontacts__mainblock_left
+	{
+		float: none !important;
+		margin: 0px auto;
+	}
+	
+	.Scontacts__mainblock_right
+	{
+		padding: 6px;
+		width: 90%;
+		margin-bottom: 40px;
+	}
+
+	.Scontacts__mainblock_right .consultation_title
+	{
+		font-size: 1.3em !important;
+	}
+
+	.another_form
+	{
+		text-align: center;
+		margin-left: -60px;
+	}
+
+	.row_phones span,
+	.row_email span,
+	.row_skype span
+	{
+		float: none !important;
+	}
+	.row_phones,
+	.row_email,
+	.row_skype
+	{
+		text-align: center;
+	}
+	.Scontacts_phone_img,
+	.Scontacts_email_img,
+	.Scontacts_skype_img
+	{
+		margin-left: 0;
+		margin-top: 0;
+	}
+
+	/*PROPERTY*/
+	.Sproperty__main_title
+	{
+		font-size: 2em;
+	}
+	.Scontacts__arrow_down
+	{
+		top: 108px;
+	}
+	#Sproperty .Scontacts__mainblock
+	{
+		text-align: center;
+	}
+	#Sproperty .img-responsive
+	{
+		margin: 0px auto;
+	}
+
+	/*ABOUT*/
+	.about_kovalev,
+	.about_petrov
+	{
+		width: 90%;
+		margin: 0px auto;
+		margin-bottom: 30px;
+		float: none !important;
+		height: 493px;
+	}
+}
+
+/*fix sections*/
+@media screen and (max-width: 630px)
+{
+	.gamburger4
+	{
+		right: 50px;
+	}
+	/*services*/
+	#services
+	{
+		height: 1100px;
+	}
+
+	.services_block1
+	{
+		height: 340px;
+	}
+
+	.services_block2
+	{
+		height: 214px;
+	}
+	
+	.services_ball
+	{
+		bottom: 190px;
+	}
+	
+	/*reviews*/
+	.review_mainblock
+	{
+		width: 90vw !important;
+		margin: 0px auto;
+		margin-right: 20px;
+	}
+}
+
+/*fix sections*/
+@media screen and (max-width: 532px)
+{
+	.gamburger4
+	{
+		right: 20px;
+	}
+	/*relocation*/
+	.relocation_box img:last-child
+	{
+		top: -8px;
+	}
+
+	/*services*/
+	.services_block1
+	{
+		height: 370px;
+	}
+
+	.services_block2
+	{
+		height: 244px;
+	}
+	
+	.services_ball
+	{
+		bottom: 220px;
+	}
+	/*ABOUT*/
+	.about_words
+	{
+		padding: 0;
+	}
+}
+
+/*mobile*/
+@media screen and (max-width: 480px)
+{
+	h2
+	{
+		font-size: 1.4em !important;
+	}
+	/*header*/
+	.main_title
+	{
+		font-size: 2em;
+	}
+
+	.title p
+	{
+		font-size: 1.533em
+	}
+
+	/*relocation*/
+	.relocation_box img:last-child
+	{
+		top: 30px;
+	}
+
+	.relocation_question, .relocation_how
+	{
+		font-size: 0.8em;
+	}
+
+	.relocation_answer
+	{
+		font-size: 1.4em;
+	}
+
+	/*services*/
+	#services
+	{
+		height: 1200px;
+	}
+
+	.services_block1 p, .services_block2 p
+	{
+		font-size: 0.844em;
+	}
+
+	.blocks_container .img3
+	{
+		left: calc(50% + 10px);
+		bottom: 220px;
+	}
+	
+	/*reviews*/
+	#reviews
+	{
+		height: 720px;
+	}
+	.review_mainblock
+	{
+		height: 300px;
+	}
+	
+	/*footer*/
+	footer span:nth-child(2)
+	{
+		display: none;
+	}
+
+	/*PROPERTY*/
+	.Sproperty__main_title
+	{
+		font-size: 1.5em;
+	}
+	.Scontacts__arrow_down
+	{
+		top: 128px;
+	}
+	.Sabout_preface,
+	.property__house_text,
+	.property__package_text
+	{
+		font-size: 0.689em;
+	}
+
+	.property__package_text
+	{
+		margin-top: 40px;
+	}
+	/*ABOUT*/
+	.about_kovalev,
+	.about_petrov
+	{
+		height: 553px;
+	}
+	
+	/*ArcticModal*/
+	.box-modal
+	{
+		width: 100% !important;
+	}
+	.box-modal_input,
+	.submit_consult
+	{
+		width: 90% !important;
+	}
+
+}
