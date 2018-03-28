@@ -698,6 +698,12 @@
 		height: 553px;
 	}
 	
+	/*CONTACTS*/
+	.Scontacts__mainblock_right .submit_consult
+	{
+		width: 290px !important;
+	}
+
 	/*ArcticModal*/
 	.box-modal
 	{
@@ -709,4 +715,44 @@
 		width: 90% !important;
 	}
 
+}
+
+/*fix sections*/
+
+@media screen and (max-width: 432px)
+{
+	/*relocation*/
+	.relocation_box img:last-child {
+		top: 10px;
+	}
+
+	/*services*/
+	.services_block1
+	{
+		height: 400px;
+	}
+	.services_block2
+	{
+		height: 284px;
+	}
+	.services_ball
+	{
+		bottom: 260px;
+	}
+}
+
+@media screen and (max-width: 380px)
+{
+	/*relocation*/
+	.relocation_box img:last-child {
+		top: -10px;
+	}
+
+	/*services*/
+	.services_block1,
+	.services_block2
+	{
+		padding-right: 10px;
+		padding-left: 10px;
+	}
 }
