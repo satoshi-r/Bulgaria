@@ -314,11 +314,12 @@ header
 .competence
 {
     margin: 0px auto;
+    margin-left: 15px;
 }
 
 .authenticity
 {
-    /*float: right;*/
+    float: right;
     margin-left: 20px;
     position: relative;
    /* bottom: 360px;*/

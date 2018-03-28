@@ -76,13 +76,13 @@ $(document).ready(function(){
 
 	// Модальное окно
 	$(".ring, footer_ring").click(function(){
-  	$('#exampleModal').arcticmodal();
-  	if($(".gamburger3").attr('datas', 'on')){
+		if($(".gamburger3").attr('datas', 'on')){
   		$(".gamburger4").attr('style', 'visibility: hidden;');
 			$(".gamburger3").attr('datas', 'off');
 			$(".gamburger3").removeClass("fa-times");
 			$(".gamburger3").addClass("fa-bars");
   	}
+  	$('#exampleModal').arcticmodal();
 	});
 
 	// Поправка адаптивности

@@ -14,7 +14,13 @@
 	{
 		right: 30px;
 	}
+	/*advantages*/
+	.competence
+	{
+		margin-left: 10px;
+	}
 	
+
 	/*relocation*/
 	.relocation_box
 	{
@@ -145,6 +151,7 @@
 	.competence
 	{
 		margin-top: 40px;
+		margin-left: 0;
 	}
 
 	/*relocation*/
