@@ -535,10 +535,7 @@
 /*fix sections*/
 @media screen and (max-width: 630px)
 {
-	.gamburger4
-	{
-		right: 50px;
-	}
+	
 	/*services*/
 	#services
 	{
@@ -561,12 +558,12 @@
 	}
 	
 	/*reviews*/
-	.review_mainblock
+	/*.review_mainblock
 	{
 		width: 90vw !important;
 		margin: 0px auto;
 		margin-right: 20px;
-	}
+	}*/
 }
 
 /*fix sections*/
@@ -658,13 +655,18 @@
 	/*reviews*/
 	#reviews
 	{
-		height: 720px;
+		height: 800px;
 	}
 	.review_mainblock
 	{
 		height: 300px;
 	}
 	
+	.slick-list
+	{
+		height: 500px;
+	}
+
 	/*footer*/
 	footer span:nth-child(2)
 	{
