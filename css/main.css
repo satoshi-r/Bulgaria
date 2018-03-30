@@ -87,7 +87,91 @@
   }
 }
 
+/*Burger*/
+@keyframes opac {
+    from{opacity: 0.5}
+    to{opacity: 1}
+}
 
+@keyframes leftdrop_in{
+    from{margin-right: -1000px;}
+    to{margin-right: 0px;}
+}
+
+@keyframes leftdrop_out{
+    from{margin-right: 0;}
+    to{margin-right: -1000px;}
+}
+
+@keyframes alarm{
+    0%{transform: rotate(-15deg);}
+    20%{transform: rotate(0deg);}
+    40%{transform: rotate(15deg);}
+    60%{transform: rotate(-15deg);}
+    80%{transform: rotate(0deg);}
+    100%{transform: rotate(15deg);}
+}
+
+
+
+#leftdrop{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 320px;
+    height: 100%;
+    background: linear-gradient(to bottom, #182d36, #2b7087);
+    display:none;
+    color: white;
+    text-align: left;
+    animation: leftdrop_in .7s 1;
+    animation-fill-mode: forwards;
+    z-index: 50;
+    opacity: .9;
+}
+
+#leftdrop a{
+    color: white;
+}
+
+#close i
+{
+    font-size: x-large;
+}
+
+#leftdrop ul{
+    margin-top: 60px;
+    margin-right: 20px;
+    margin-left: 40px;
+}
+#leftdrop li{
+    margin-top: 15px;
+}
+
+#close{
+    margin-top: -30px;
+    float: right;
+    color: white;
+}
+
+#leftdrop li a:hover{   
+    color: #267df4;
+    animation: opac .5s 1;
+}
+
+#burger
+{
+    text-align: center;
+    position: relative; 
+    top: 25px;
+    right: 0px;
+}
+
+#burger i
+{
+    font-size: xx-large;
+    color: #fff;
+}
 /*---*/
 body
 {
@@ -129,6 +213,8 @@ h2
     text-align: center;
     margin-top: 86px;
 }
+
+
 
 .main_title
 {
@@ -1371,75 +1457,7 @@ footer span:nth-child(3)
     background: #0c4864;
     border: 1px solid #fff;
 }
-/*burger*/
 
-.gamburger1
-{
-    position: relative;
-    z-index: 9999  ;  
-    top: 25px    ;
-    right: 0px ;
-}
    
 
-.gamburger1 i.gamburger3
-    {color: #fff   ; 
-        width: 43px   ; 
-        height: 39px   ; 
-        text-align: center ;   
-        font-size: 34px     ;   
-        background: transparent ;   
-        padding-top: 4px ;   
-        cursor: pointer;}
 
-/*.gamburger1 i.gamburger3:hover     
-    // background: #fff    
-    // color: #1c4482  */
-
-.gamburger2
-    {overflow: hidden;}
-
-.gamburger3
-    {float: left;
-        position: relative;
-        bottom: 5px;
-    }
-.gamburger4
-   { /*// float: left    
-       // margin-right: -100px */   
-       visibility: hidden;    
-       transition: all 0.3s ease;    
-       -webkit-transition: all 0.3s ease;   
-       background: #00ace5;
-       opacity: .9;
-       color: #fff;   
-       padding: 15px 25px;
-       position: absolute;
-       margin-top: 53px;
-       width: 270px;
-       right: 80px;
-       /*// opacity: 0;*/}
-
-.gamburger4 .ring
-{
-    color: #fff;
-    border-color: #fff;
-}
-
-.gamburger5
-    {list-style-type: none ;   
-        margin: 0px ;   
-        padding: 0px;}
-
-.gamburger5 li
-   { margin-bottom: 5px;}
-
-.gamburger5 li a
-{
-    font-size: 17px;   
-    color: #fff;    
-    text-decoration: none;
-}
-
-.gamburger5 li a:hover
-    {opacity: .75;}

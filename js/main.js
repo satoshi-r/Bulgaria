@@ -76,12 +76,6 @@ $(document).ready(function(){
 
 	// Модальное окно
 	$(".ring, footer_ring").click(function(){
-		if($(".gamburger3").attr('datas', 'on')){
-  		$(".gamburger4").attr('style', 'visibility: hidden;');
-			$(".gamburger3").attr('datas', 'off');
-			$(".gamburger3").removeClass("fa-times");
-			$(".gamburger3").addClass("fa-bars");
-  	}
   	$('#exampleModal').arcticmodal();
 	});
 
@@ -113,22 +107,6 @@ $(document).ready(function(){
 	});
 });
 
-// Бургер
-$(".gamburger3").click(function() {
-	if($(".gamburger3").attr('datas') == 'off') {     
-		$(".gamburger4").attr('style', 'visibility: visible; margin-right: 0px;');
-		$(".gamburger3").attr('datas', 'on');
-		$(".gamburger3").removeClass("fa-bars");
-		$(".gamburger3").addClass("fa-times");
-	}
-	else {                                        
-		$(".gamburger4").attr('style', 'visibility: hidden;');
-		$(".gamburger3").attr('datas', 'off');
-		$(".gamburger3").removeClass("fa-times");
-		$(".gamburger3").addClass("fa-bars");
-	}
-});
-
 
 // Возвращение скролла после загрузки страницы
 $(document).ready(function(){
@@ -156,3 +134,14 @@ window.onload = function() {
         fadeOutnojquery(hellopreloader);
     }, 1000);
 };
+
+// Бургер
+function hold(){
+document.getElementById('leftdrop').style.display = 'block';
+document.getElementById('leftdrop').style.animationName = 'leftdrop_in';
+};
+
+function times(){
+	document.getElementById('leftdrop').style.animationName = 'leftdrop_out';
+};
+ф

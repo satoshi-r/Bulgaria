@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Compass | Главная</title>
+	<meta name="description" content="">
 	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	
@@ -67,28 +68,29 @@
 						</div>
 					</div>
 					<!-- BURGER -->
-					<div class="gamburger1 col-sm-1 hidden-lg pull-right col-xs-3">
-            <div class="gamburger2">
-                <i class="fa fa-bars gamburger3" datas="off"></i>
-                <div class="gamburger4">
-                    <ul class="gamburger5">
-                      <li><a href="main.html">Главная</a></li>
-                      <li><a href="about.html">О компании</a></li>
-                      <li><a href="property.html">Недвижимость и переезд</a></li>
-                      <li><a href="contacts.html">Контакты</a></li>
-                      <li class="visible-xs color-black">
-                      	<button class="ring pull-left" title="Заказать звонок">
-                      		<i class="fa fa-phone"></i>
-                      	</button>
-                      	<div class="contacts_number pull-right">
-                      		+7 (495) 12-321-345<br>
-                      		+7 (495) 12-321-345
-                      	</div>
-                      </li>
-                    </ul>
-                </div>
-            </div>
+					<div id="burger" class="col-sm-1 hidden-lg pull-right col-xs-3">
+						<a href="#" onclick="hold()"><i class="fa fa-bars"></i></a>
+					</div>
+					
+        	<div id="leftdrop">
+        		<ul class="">
+        			<li><a href="#" id="close" onclick="times()"><i class="fa fa-times"></i></a></li>
+              <li><a href="main.html">Главная</a></li>
+              <li><a href="about.html">О компании</a></li>
+              <li><a href="property.html">Недвижимость и переезд</a></li>
+              <li><a href="contacts.html">Контакты</a></li>
+              <li class="visible-xs">
+              	<button class="ring pull-left" title="Заказать звонок">
+              		<i class="fa fa-phone"></i>
+              	</button>
+              	<div class="contacts_number pull-right">
+              		+7 (495) 12-321-345<br>
+              		+7 (495) 12-321-345
+              	</div>
+              </li>
+            </ul>
         	</div>
+        	
 				</div>
 			</div>
 		</div>
