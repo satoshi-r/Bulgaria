@@ -7,7 +7,7 @@ $(document).ready(function(){
 	$(function() {
 		$('.ring').tooltip('hide');
 	});
-	
+
 	// Слайдер
 	$('.single-item').slick({
 		dots:true,
@@ -50,7 +50,7 @@ $(document).ready(function(){
 	} catch(err) {
 
 	};
-	
+
 	// Запрет на вытаскивание картинок
 	$("img, a").on("dragstart", function(event) { event.preventDefault(); });
 
@@ -135,6 +135,11 @@ window.onload = function() {
     }, 1000);
 };
 
+// Маска телефона
+jQuery(function($) {
+	$('#form_tel').mask("+7(999)-999-99-99");
+});
+
 // Бургер
 function hold(){
 document.getElementById('leftdrop').style.display = 'block';
@@ -144,4 +149,3 @@ document.getElementById('leftdrop').style.animationName = 'leftdrop_in';
 function times(){
 	document.getElementById('leftdrop').style.animationName = 'leftdrop_out';
 };
-ф
