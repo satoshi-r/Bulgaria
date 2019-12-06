@@ -210,6 +210,7 @@ h2 {
 }
 
 .main_title {
+    font-family: "Natasha", sans-serif;
     color: #ffffff;
     font-weight: 900;
     font-size: 5em;
@@ -219,6 +220,7 @@ h2 {
 }
 
 .title p {
+    font-family: "Natasha", sans-serif;
     color: #ffffff;
     text-transform: uppercase;
     font-size: 2.833em;
@@ -408,16 +410,13 @@ header {
 
 .relocation_title {
     color: #fff;
-    /* text-align: end;*/
     font-weight: 900;
-    /*margin-left: calc(50% - 280px);*/
     white-space: nowrap;
 }
 
 .relocation_container {
     color: #fff;
     text-align: center;
-    /*margin-top: -120px;*/
 }
 
 .relocation_quote {
@@ -868,7 +867,7 @@ footer span:nth-child(2), footer span:nth-child(3) {
 
 .footer__span_container {
     height: 100%;
-} 
+}
 
 .span_underline {
     -webkit-text-decoration-line: underline;
