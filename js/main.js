@@ -1,11 +1,27 @@
 $(document).ready(function () {
 	// прокрутка по якорям
-	$(function () {
-		$("#first-arrow-js").click(function () {
-			$("html, body").animate({ scrollTop: $('#advantages').offset().top + "px" });
-			return false;
-		});
+	function scrollTo(el) {
+		$("html, body").animate({ scrollTop: el.offset().top + "px" });
+		return false;
+	}
+	$("#first-arrow-js").click(function () {
+		let el = $('#advantages');
+		scrollTo(el);
 	});
+	$("#about-arrow-js").click(function () {
+		let el = $('.Sabout_mainblock');
+		scrollTo(el);
+	});
+	$("#property-arrow-js").click(function () {
+		let el = $('.Scontacts__mainblock');
+		scrollTo(el);
+	});
+	$("#contacts-arrow-js").click(function () {
+		let el = $('.Scontacts__mainblock');
+		scrollTo(el);
+	});
+
+
 
 	// Слайдер
 	$('.single-item').slick({

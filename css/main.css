@@ -497,6 +497,12 @@ header {
     font-size: 0.938em;
     font-weight: 900;
     border-color: #fff;
+    display: inline-block;
+}
+
+.relocation_btnmore:hover {
+    color: #fff;
+    opacity: 0.8;
 }
 
 #services {
@@ -610,6 +616,12 @@ header {
     font-size: 0.938em;
     font-weight: 900;
     margin-top: 60px;
+    display: inline-block;
+}
+
+.services_btnmore:hover {
+    color: #23aae2;
+    opacity: 0.8;
 }
 
 #reviews {
@@ -957,7 +969,7 @@ footer span:nth-child(2), footer span:nth-child(3) {
 }
 
 .Scontacts_email {
-    margin-right: 94px;
+    margin-right: 85px;
 }
 
 .Scontacts_email p {
@@ -978,7 +990,7 @@ footer span:nth-child(2), footer span:nth-child(3) {
 }
 
 .Scontacts_skype {
-    margin-right: 130px;
+    margin-right: 122px;
 }
 
 .Scontacts_skype p {
@@ -1068,7 +1080,7 @@ footer span:nth-child(2), footer span:nth-child(3) {
 
 .word3 {
     position: relative;
-    left: 60px;
+    left: 88px;
     top: 20px;
     margin: 0px auto;
     color: #bdbdbd;
@@ -1291,12 +1303,11 @@ footer span:nth-child(2), footer span:nth-child(3) {
     position: relative;
     width: 500px;
     padding: 16px;
-    background: #0c4864;
-    color: #fff;
-    font: 14px/18px Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
-    -webkit-box-shadow: 0px 0px 10px 0px rgba(39, 255, 255, 0.8);
-    -moz-box-shadow: 0px 0px 10px 0px rgba(39, 255, 255, 0.8);
-    box-shadow: 0px 0px 10px 0px rgba(39, 255, 255, 0.8);
+    background: #00b3f8;
+    color: #000;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(41, 51, 51, 0.8);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(41, 51, 51, 0.8);
+    box-shadow: 0px 0px 10px 0px rgba(41, 51, 51, 0.8);
     border-radius: 6px;
     opacity: .9;
 }
@@ -1307,10 +1318,9 @@ footer span:nth-child(2), footer span:nth-child(3) {
     top: 6px;
     font-size: 1.7em;
     line-height: 15px;
-    color: #999;
+    color: #fff;
     cursor: pointer;
     padding: 3px;
-    color: #fff;
 }
 
 .box-modal_close span {
@@ -1325,24 +1335,28 @@ footer span:nth-child(2), footer span:nth-child(3) {
 .box-modal_title {
     margin-top: 20px;
     margin-bottom: 20px;
-    text-transform: uppercase;
+    font-weight: bold;
     color: #fff;
-    font-weight: 100;
     font-size: 1.444em;
 }
 
 .box-modal input {
     margin: 0px auto;
-    background: #0c4864;
+    background: #30c2ff;
+    color: #fff;
     margin-bottom: 10px;
-    border-style: solid;
-    border-color: #fff;
+    border: 0;
     width: 370px;
     height: 64px;
     padding-left: 30px;
-    font-size: 1.111em;
+    font-size: 0.722em;
     font-weight: 300;
     text-transform: uppercase;
+}
+
+.box-modal input:focus {
+    box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.42);
+    border: 2px solid #fff;
 }
 
 .box-modal .submit_consult:hover {
@@ -1351,8 +1365,9 @@ footer span:nth-child(2), footer span:nth-child(3) {
 }
 
 .box-modal .submit_consult {
-    background: #0c4864;
-    border: 1px solid #fff;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
 }
 
 /* Slick */
