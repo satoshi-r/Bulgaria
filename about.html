@@ -98,17 +98,17 @@
 						</p>
 					</div>
 					<div class="row about_words">
-						<span class="words1-2">
+						<div class="words1-2">
 							<p>десятки</p>
 							<p>довольных клиентов</p>
-						</span>
-						<span class="word3">
+						</div>
+						<div class="word3">
 							у ж е &nbsp; о б р е л и
-						</span>
-						<span class="words4-5">
+						</div>
+						<div class="words4-5">
 							<p>новый дом</p>
 							<p>в болгарии</p>
-						</span>
+						</div>
 					</div>
 					<div class="row about_band">
 						<p>
@@ -158,13 +158,13 @@
 					</div>
 					<form>
 						<div class="row">
-							<input type="text" placeholder="имя" required="true">
+							<input type="text" placeholder="имя" required>
 						</div>
 						<div class="row">
-							<input type="e-mail" placeholder="e-mail">
+							<input type="email" placeholder="e-mail" required>
 						</div>
 						<div class="row">
-							<input type="tel" id="form_tel" placeholder="телефон">
+							<input type="tel" id="consult_tel" placeholder="телефон" required>
 						</div>
 						<div class="row">
 							<button class="submit_consult">
@@ -205,19 +205,19 @@
 		</div>
 	</footer>
 	<!-- Стрелка вверх -->
-	<a href="" class="back-top"><img src="img/up.png" alt=""></a>
+	<a href="javascript:void(0)" class="back-top"><img src="img/up.png" alt=""></a>
 	<!-- Модальное окно -->
 	<div style="display: none;">
 		<div class="box-modal animated fadeInUp" id="exampleModal">
 			<div class="box-modal_close arcticmodal-close"><i class="fa fa-times" aria-hidden="true"></i></div>
 			<div class="box-modal_title">Заказать звонок</div>
-			<form method="post" action="">
+			<form method="post" action="javascript:void(0)">
 				<div class="row">
 					<input id="form_tel" class="box-modal_input" type="tel" name="tel" placeholder="Номер телефона"
-						pattern="7[0-9]{3}[0-9]{3}[0-9]{4}" required="true">
+						pattern="7[0-9]{3}[0-9]{3}[0-9]{4}" required>
 				</div>
 				<div class="row">
-					<input class="box-modal_input" type="text" placeholder="Ваше имя" required="true">
+					<input class="box-modal_input" type="text" placeholder="Ваше имя" required>
 				</div>
 				<div class="row">
 					<button class="submit_consult">Отправить</button>

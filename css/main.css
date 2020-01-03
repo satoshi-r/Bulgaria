@@ -1060,10 +1060,6 @@ footer span:nth-child(2), footer span:nth-child(3) {
     margin: 50px 74px 50px 74px;
 }
 
-.words1-2 {
-    float: left;
-}
-
 .words1-2 p:first-child {
     color: #11b2f5;
     font-size: 2.167em;
@@ -1079,9 +1075,7 @@ footer span:nth-child(2), footer span:nth-child(3) {
 }
 
 .word3 {
-    position: relative;
-    left: 88px;
-    top: 20px;
+    display: block;
     margin: 0px auto;
     color: #bdbdbd;
     font-size: 1.056em;
@@ -1089,9 +1083,6 @@ footer span:nth-child(2), footer span:nth-child(3) {
     text-transform: uppercase;
 }
 
-.words4-5 {
-    float: right;
-}
 
 .words4-5 p:first-child {
     color: #11b2f5;
@@ -1113,6 +1104,9 @@ footer span:nth-child(2), footer span:nth-child(3) {
 
 .about_words {
     padding: 0px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .about_band {

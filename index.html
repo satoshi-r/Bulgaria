@@ -96,7 +96,7 @@
 			<h2>наши преимущества</h2>
 			<div class="row">
 				<div class="reliability hidden animated col-xs-12 col-sm-6 text-center advanteges_width">
-					<img src="img/adv_reliability.png">
+					<img src="img/adv_reliability.png" alt="icon">
 					<h3>надежность</h3>
 					<hr>
 					<p>
@@ -104,7 +104,7 @@
 					</p>
 				</div>
 				<div class="competence hidden animated col-xs-12 col-sm-12 text-center advanteges_width">
-					<img src="img/adv_competence.png">
+					<img src="img/adv_competence.png" alt="icon">
 					<h3>компетентность</h3>
 					<hr>
 					<p>
@@ -113,7 +113,7 @@
 					</p>
 				</div>
 				<div class="authenticity hidden animated col-xs-12 col-sm-6 text-center advanteges_width ">
-					<img src="img/adv_authenticity.png">
+					<img src="img/adv_authenticity.png" alt="icon">
 					<h3>достоверность</h3>
 					<hr>
 					<p>
@@ -158,9 +158,9 @@
 			<div class="row">
 				<div class="blocks_container pull-center col-md-8">
 					<div class="services_imgcontainer">
-						<span class="img1 animated hidden"><img src="img/opening_img1.png"></span>
-						<span class="img2 animated hidden"><img src="img/opening_img2m.png"></span>
-						<span class="img3 animated hidden"><img src="img/opening_img3.png"></span>
+						<span class="img1 animated hidden"><img src="img/opening_img1.png" alt="img"></span>
+						<span class="img2 animated hidden"><img src="img/opening_img2m.png" alt="img"></span>
+						<span class="img3 animated hidden"><img src="img/opening_img3.png" alt="img"></span>
 					</div>
 					<div class="services_block1">
 						<h3>мечтаете о доме на солнечном берегу?</h3>
@@ -197,12 +197,12 @@
 					<i class="fa fa-chevron-left"></i>
 				</div> -->
 				<!-- data-slick='{"dots":true, "autoplay":true}' -->
-				<div class="single-item">
+				<di class="single-item">
 					<div class="reviews_container col-md-12 ">
-						<span class="profile_photo ">
+						<div class="profile_photo ">
 							<img src="img/diana.jpg" alt="avatar">
-						</span>
-						<span class="review_mainblock col-md-8 ">
+						</div>
+						<div class="review_mainblock col-md-8 ">
 							<div class="row">
 								<span class="profile_name col-xs-12">диана апасова</span>
 								<span class="profile_link "><a href="#">vk.com/apasova</a></span>
@@ -215,14 +215,14 @@
 									aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
 								</div>
 							</div>
-						</span>
+						</div>
 					</div>
 
 					<div class="reviews_container col-md-12 ">
-						<span class="profile_photo ">
+						<div class="profile_photo ">
 							<img src="img/diana.jpg" alt="avatar">
-						</span>
-						<span class="review_mainblock col-md-8 ">
+						</div>
+						<div class="review_mainblock col-md-8 ">
 							<div class="row">
 								<span class="profile_name ">диана апасова</span>
 								<span class="profile_link "><a href="#">vk.com/apasova</a></span>
@@ -235,13 +235,14 @@
 									aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
 								</div>
 							</div>
-						</span>
+						</div>
 					</div>
+
 					<div class="reviews_container col-md-12 ">
-						<span class="profile_photo ">
+						<div class="profile_photo ">
 							<img src="img/diana.jpg" alt="avatar">
-						</span>
-						<span class="review_mainblock col-md-8 ">
+						</div>
+						<div class="review_mainblock col-md-8 ">
 							<div class="row">
 								<span class="profile_name ">диана апасова</span>
 								<span class="profile_link "><a href="#">vk.com/apasova</a></span>
@@ -254,7 +255,7 @@
 									aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
 								</div>
 							</div>
-						</span>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -276,13 +277,13 @@
 					</div>
 					<form>
 						<div class="row">
-							<input type="text" placeholder="имя" required="true">
+							<input type="text" placeholder="имя" required>
 						</div>
 						<div class="row">
-							<input type="e-mail" placeholder="e-mail">
+							<input type="email" placeholder="e-mail">
 						</div>
 						<div class="row">
-							<input id="form_tel" type="tel" placeholder="телефон">
+							<input id="consult_tel" type="tel" placeholder="телефон">
 						</div>
 						<div class="row">
 							<button class="submit_consult">
@@ -331,12 +332,12 @@
 		<div class="box-modal animated fadeIn" id="exampleModal">
 			<div class="box-modal_close arcticmodal-close"><i class="fa fa-times" aria-hidden="true"></i></div>
 			<div class="box-modal_title">Заказать звонок</div>
-			<form method="post" action="">
+			<form method="post" action="javascript:void(0)">
 				<div class="row">
-					<input id="form_tel" class="box-modal_input" type="tel" name="tel" placeholder="Номер телефона" required="true">
+					<input id="form_tel" class="box-modal_input" type="tel" name="tel" placeholder="Номер телефона" required>
 				</div>
 				<div class="row">
-					<input class="box-modal_input" type="text" placeholder="Ваше имя" required="true">
+					<input class="box-modal_input" type="text" placeholder="Ваше имя" required>
 				</div>
 				<div class="row">
 					<button class="submit_consult">Отправить</button>

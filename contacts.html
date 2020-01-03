@@ -101,31 +101,31 @@
 								<span class="pull-left Scontacts_phone_img">
 									<img src="img/contacts_phone.png" alt="phone">
 								</span>
-								<span class="Scontacts_phones pull-right">
+								<div class="Scontacts_phones pull-right">
 									<h3>телефоны</h3>
 									<p>В Болгарии  8 (123) 12-123-123</p>
 									<p>В России     8 (495) 12-123-123</p>
-								</span>
+								</div>
 							</div>
 							<div class="row row_email">
 								<span class="pull-left Scontacts_email_img">
 									<img src="img/contacts_email.png" alt="email">
 								</span>
-								<span class="Scontacts_email pull-right">
+								<div class="Scontacts_email pull-right">
 									<h3>e-mail</h3>
 									<p>info@sitename.ru</p>
 
-								</span>
+								</div>
 							</div>
 							<div class="row row_skype">
 								<span class="pull-left Scontacts_skype_img">
 									<img src="img/contacts_skype.png" alt="skype">
 								</span>
-								<span class="Scontacts_skype pull-right">
+								<div class="Scontacts_skype pull-right">
 									<h3>skype</h3>
 									<p>skypename</p>
 
-								</span>
+								</div>
 							</div>
 						</div>
 						<div class="col-md-5 col-xs-12 col-sm-6 animated flipInX Scontacts__mainblock_right pull-right">
@@ -136,13 +136,13 @@
 								</div>
 								<form class="another_form">
 									<div class="row">
-										<input type="text" placeholder="имя" required="true">
+										<input type="text" placeholder="имя" required>
 									</div>
 									<div class="row">
-										<input type="e-mail" placeholder="e-mail" required="true">
+										<input type="email" placeholder="e-mail" required>
 									</div>
 									<div class="row">
-										<input id="form_tel" type="tel" placeholder="телефон" required="true">
+										<input id="consult_tel" type="tel" placeholder="телефон" required>
 									</div>
 									<div class="row">
 										<button class="submit_consult">
@@ -186,18 +186,18 @@
 		</div>
 	</footer>
 	<!-- Стрелка вверх -->
-	<a href="" class="back-top"><img src="img/up.png" alt=""></a>
+	<a href="javascript:void(0)" class="back-top"><img src="img/up.png" alt=""></a>
 	<!-- Модальное окно -->
 	<div style="display: none;">
 	    <div class="box-modal animated fadeInUp" id="exampleModal">
 	        <div class="box-modal_close arcticmodal-close"><i class="fa fa-times" aria-hidden="true"></i></div>
 	        <div class="box-modal_title">Заказать звонок</div>
-	        <form method="post" action="">
+	        <form method="post" action="javascript:void(0)">
 		        <div class="row">
-		        	<input id="form_tel" class="box-modal_input" type="tel" name="tel" placeholder="Номер телефона" pattern = "7[0-9]{3}[0-9]{3}[0-9]{4}" required="true">
+		        	<input id="form_tel" class="box-modal_input" type="tel" name="tel" placeholder="Номер телефона" pattern = "7[0-9]{3}[0-9]{3}[0-9]{4}" required>
 		        </div>
 		        <div class="row">
-		        	<input class="box-modal_input" type="text" placeholder="Ваше имя" required="true">
+		        	<input class="box-modal_input" type="text" placeholder="Ваше имя" required>
 		        </div>
 		        <div class="row">
 		        	<button class="submit_consult">Отправить</button>

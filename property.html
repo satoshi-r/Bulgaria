@@ -129,13 +129,13 @@
 					</div>
 					<form>
 						<div class="row">
-							<input type="text" placeholder="имя" required="true">
+							<input type="text" placeholder="имя" required>
 						</div>
 						<div class="row">
-							<input type="e-mail" placeholder="e-mail">
+							<input type="email" placeholder="e-mail">
 						</div>
 						<div class="row">
-							<input id="form_tel" type="tel" placeholder="телефон">
+							<input id="consult_tel" type="tel" placeholder="телефон">
 						</div>
 						<div class="row">
 							<button class="submit_consult">
@@ -176,18 +176,18 @@
 		</div>
 	</footer>
 	<!-- Стрелка вверх -->
-	<a href="" class="back-top"><img src="img/up.png" alt=""></a>
+	<a href="javascript:void(0)" class="back-top"><img src="img/up.png" alt=""></a>
 	<!-- Модальное окно -->
 	<div style="display: none;">
 	    <div class="box-modal animated fadeInUp" id="exampleModal">
 	        <div class="box-modal_close arcticmodal-close"><i class="fa fa-times" aria-hidden="true"></i></div>
 	        <div class="box-modal_title">Заказать звонок</div>
-	        <form method="post" action="">
+	        <form method="post" action="javascript:void(0)">
 		        <div class="row">
-		        	<input id="form_tel" class="box-modal_input" type="tel" name="tel" placeholder="Номер телефона" pattern = "7[0-9]{3}[0-9]{3}[0-9]{4}" required="true">
+		        	<input id="form_tel" class="box-modal_input" type="tel" name="tel" placeholder="Номер телефона" pattern = "7[0-9]{3}[0-9]{3}[0-9]{4}" required>
 		        </div>
 		        <div class="row">
-		        	<input class="box-modal_input" type="text" placeholder="Ваше имя" required="true">
+		        	<input class="box-modal_input" type="text" placeholder="Ваше имя" required>
 		        </div>
 		        <div class="row">
 		        	<button class="submit_consult">Отправить</button>
