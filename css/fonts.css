@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Natasha';
-    src: url('fonts/Natasha.woff2') format('woff2'), url('fonts/Natasha.woff') format('woff');
+    src: url('fonts/natasha.woff2') format('woff2'), url('fonts/natasha.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
